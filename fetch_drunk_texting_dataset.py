@@ -17,10 +17,10 @@ q3 = [i for i in data3.tweet_id]
 
 tweet_IDs = list(set().union(*[q1,q2,q3]))
 
-CONSUMER_KEY = 'C49Dpc3Cg02NvYu2Mt7H2PoeW'
-CONSUMER_SECRET = 'bNP5xROAUCiuCZAKBzR1SCwk0QizXjNCuvwzxxmrfMV7V3Ox0d'
-OAUTH_TOKEN = '3249742729-mMNtOd6Z0O3ZsfTqCMxFZW4g31Q33VV4UU6KzP7'
-OAUTH_TOKEN_SECRET = '62wouJwZlySm3h52SPJUVelvurjPyRcslgpzUKLo3uyFo'
+CONSUMER_KEY = ''
+CONSUMER_SECRET = ''
+OAUTH_TOKEN = ''
+OAUTH_TOKEN_SECRET = ''
 
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(OAUTH_TOKEN, OAUTH_TOKEN_SECRET)
